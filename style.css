@@ -2,8 +2,19 @@ body {
     margin: 0;
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-    background: brown;
+    min-height: 100vh;
+    background: aliceblue;
+}
+
+h1 {
+
+    font-family: 'Roboto', sans-serif;
+    font-size: 2rem;
+    font-weight: 400;
+    text-align: center;
+    color: slateblue;
 }
 
 .image-container {
@@ -19,7 +30,8 @@ body {
     height: 300px;
 }
 
-.btn {
+.btn,
+.resetBtn {
     background: slateblue;
     border: none;
     border-radius: 10px;
@@ -31,7 +43,8 @@ body {
     text-transform: uppercase;
 }
 
-.btn:hover {
+.btn:hover,
+.resetBtn:hover {
     background: white;
     color: slateblue;
     font-size: 1rem;
