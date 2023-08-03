@@ -7,4 +7,4 @@ Vanilla JavaScript project that fetches random photos from the Unsplash API and 
 - HTML5
 - CSS3
 - JavaScript (ES6)
-- Unsplash API
+- [Picsum Photos API](https://picsum.photos/)
